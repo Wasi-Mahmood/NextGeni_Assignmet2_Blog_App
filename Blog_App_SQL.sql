@@ -1,0 +1,15 @@
+-- CREATE TABLE users(
+-- 	email varchar(30),
+-- 	password varchar(30),
+-- 	PRIMARY KEY(email)
+-- );
+
+-- CREATE TABLE comments(
+-- 	email varchar(30),
+-- 	blog_id varchar(10),
+-- 	comment_id varchar(10),
+-- 	comment_data varchar(255),
+-- 	PRIMARY KEY(comment_id),
+-- 	FOREIGN KEY (blog_id) REFERENCES blogs(blog_id),
+-- 	FOREIGN KEY (email) REFERENCES users(email)
+-- );
